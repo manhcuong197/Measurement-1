@@ -101,7 +101,7 @@ class Scene extends Phaser.Scene {
                 this.time.addEvent({
                     delay: 4000,
                     callback: () => {
-                        window.location = "/lesson/weight.html";
+                        window.location = "/lesson/finish.html";
                     },
                     loop: false,
                 });
